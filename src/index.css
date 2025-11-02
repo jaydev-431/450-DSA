@@ -1,10 +1,16 @@
+/* Imports the 'Ubuntu Mono' font from Google Fonts, including different weights and styles */
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
-
+/* Styles for the entire body of the HTML document */
 body {
+  /* Removes the default margin around the body */
   margin: 0;
+  /* Hides the vertical scroll bar, preventing scrolling */
   overflow-y: hidden;
+  /* Sets the default font for the document to 'Ubuntu Mono' */
   font-family: 'Ubuntu Mono', monospace;
+  /* Enhances text rendering on webkit browsers (e.g., Chrome, Safari) */
   -webkit-font-smoothing: antialiased;
+  /* Enhances text rendering on Mozilla browsers (e.g., Firefox) */
   -moz-osx-font-smoothing: grayscale;
 }
